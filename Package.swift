@@ -22,7 +22,10 @@ let package = Package(
       name: "GoogleNavigationTarget",
       dependencies: [
         "GoogleNavigation",
-        .product(name: "GoogleMaps", package: "DogaheMaps"),],
+        .product(name: "GoogleMaps", package: "DogaheMaps"),
+        .product(name: "GoogleMapsCore", package: "DogaheMaps"),
+        .product(name: "GoogleMapsBase", package: "DogaheMaps"),
+        .product(name: "GoogleMapsM4B", package: "DogaheMaps"),],
       path: "GoogleNavigation",
       sources: ["dummy.m"],
       resources: [
