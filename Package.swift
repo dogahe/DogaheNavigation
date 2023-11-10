@@ -20,7 +20,9 @@ let package = Package(
     .binaryTarget(name: "GoogleNavigation", url: "https://github.com/dogahe/DogaheNavigation/releases/download/1.0.1/GoogleNavigation_3p.xcframework.zip", checksum: "724948ab2e1f78c9e71b102350da689d6dc600d9af400e0a5c4b31d6f961a4a5"),
     .target(
       name: "GoogleNavigationTarget",
-      dependencies: ["GoogleNavigation"],
+      dependencies: [
+        "GoogleNavigation",
+        .product(name: "GoogleMaps", package: "DogaheMaps"),],
       path: "GoogleNavigation",
       sources: ["dummy.m"],
       resources: [
