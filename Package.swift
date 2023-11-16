@@ -12,7 +12,7 @@ let package = Package(
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
-    .package(url: "https://github.com/dogahe/DogaheMaps", "1.0.13"..."1.0.13"),
+    .package(url: "https://github.com/dogahe/DogaheMaps", "1.0.15"..."1.0.15"),
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
