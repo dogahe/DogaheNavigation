@@ -17,7 +17,7 @@ let package = Package(
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
-    .binaryTarget(name: "GoogleNavigation", url: "https://github.com/dogahe/DogaheNavigation/releases/download/1.0.1/GoogleNavigation_3p.xcframework.zip", checksum: "724948ab2e1f78c9e71b102350da689d6dc600d9af400e0a5c4b31d6f961a4a5"),
+    .binaryTarget(name: "GoogleNavigation", url: "https://dl.google.com/geosdk/swiftpm/5.3.0/GoogleNavigation_3p.xcframework.zip", checksum: "67b7778bf459756febd7a8c2efa025caa0b7fd96e48d182f66543fc5d7a8bfcb"),
     .target(
       name: "GoogleNavigationTarget",
       dependencies: [
