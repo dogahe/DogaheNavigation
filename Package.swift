@@ -23,6 +23,10 @@ let package = Package(
       checksum: "5c980e23543d7470d3beb5712c72ba18e73dfcf30c0cb59cf3fd0dcb13310755"
     ),
     .target(
+      name: "GoogleNavigationSwiftTarget",
+      path: "NavigationSwift",
+      sources: ["Empty.swift"]),
+    .target(
       name: "GoogleNavigationTarget",
       dependencies: [
         "GoogleNavigation",
@@ -45,9 +49,5 @@ let package = Package(
         .linkedFramework("UserNotifications"),
       ]
     ),
-    .target(
-      name: "GoogleNavigationSwiftTarget",
-      path: "NavigationSwift",
-      sources: ["Empty.swift"]),
   ]
 )
