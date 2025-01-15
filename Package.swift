@@ -19,8 +19,8 @@ let package = Package(
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
     .binaryTarget(
       name: "GoogleNavigation",
-      url: "https://dl.google.com/geosdk/swiftpm/9.2.0/GoogleNavigation_3p.xcframework.zip",
-      checksum: "e3bbaeefa48e32181819519ffac7f763cca4cb532ffa4e5f259b79dc56feee46"
+      url: "https://dl.google.com/geosdk/swiftpm/9.3.0/GoogleNavigation_3p.xcframework.zip",
+      checksum: "2b70ddc16ca01d391bc3242eabd2c980af94864142089f85c6b4919bfddaa5e1"
     ),
     .target(
       name: "GoogleNavigationTarget",
