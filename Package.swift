@@ -8,7 +8,7 @@ let package = Package(
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(
       name: "GoogleNavigation",
-      targets: ["GoogleNavigationTarget"]),
+      targets: ["GoogleNavigationTarget", "GoogleNavigationSwiftTarget"]),
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
@@ -45,5 +45,9 @@ let package = Package(
         .linkedFramework("UserNotifications"),
       ]
     ),
+    .target(
+      name: "GoogleNavigationSwiftTarget",
+      path: "NavigationSwift",
+      sources: ["Empty.swift"]),
   ]
 )
