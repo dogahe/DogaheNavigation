@@ -20,7 +20,7 @@ let package = Package(
     .binaryTarget(
       name: "GoogleNavigation",
       url: "https://dl.google.com/geosdk/swiftpm/9.3.0/GoogleNavigation_3p.xcframework.zip",
-      checksum: "2b70ddc16ca01d391bc3242eabd2c980af94864142089f85c6b4919bfddaa5e1"
+      checksum: "5c980e23543d7470d3beb5712c72ba18e73dfcf30c0cb59cf3fd0dcb13310755"
     ),
     .target(
       name: "GoogleNavigationTarget",
